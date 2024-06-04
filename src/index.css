@@ -1,13 +1,48 @@
+@import url("https://use.typekit.net/nfx8fty.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+}
+
+.link.active::before {
+  content: " ";
+  position: absolute;
+  width: 110%;
+  margin-left: -5%;
+  height: 0.7em;
+  background-color: #e79f0d;
+  filter: opacity(75%);
+  z-index: -1;
+  bottom: 0.1em;
+  transition: height 1s ease;
+  border-radius: 2px;
+}
+
+.link:hover::before {
+  content: " ";
+  position: absolute;
+  width: 110%;
+  margin-left: -5%;
+  height: 0.7em;
+  background-color: #e79f0d;
+  filter: opacity(75%);
+  z-index: -1;
+  bottom: 0.1em;
+  transition: height 1s ease;
+  border-radius: 2px;
 }
