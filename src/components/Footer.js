@@ -5,8 +5,10 @@ import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <div className="flex justify-between items-center py-6">
-      <div className="text-lg uppercase pt-2">©2024 Jeff Hampton</div>
-      <div className="flex gap-6">
+      <div className="text-sm md:text-lg uppercase pt-2">
+        ©2024 Jeff Hampton
+      </div>
+      <div className="flex gap-4 lg:gap-6">
         <a
           href="mailto:jeffreylawhampton@gmail.com"
           title="Email"
