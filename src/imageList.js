@@ -1,20 +1,22 @@
 export const allImages = {
   dogs: [
     {
-      src: "/images/penny-field/2500-1738.jpg",
-      width: 2500,
-      height: 1738,
-      alt: "Alert golden retriever lying in the grass with her ears perked",
+      src: "/images/penny-smile-field/2000-1518.jpg",
+      width: 2000,
+      height: 1518,
+      alt: "Close up of a golden retriever walking across a baseball field",
+      featured: true,
+      rating: 10,
       srcSet: [
         {
-          src: "/images/penny-field/2500-1738.jpg",
-          width: 2500,
-          height: 1738,
+          src: "/images/penny-smile-field/2000-1518.jpg",
+          width: 2000,
+          height: 1518,
         },
         {
-          src: "/images/penny-field/800-493.jpg",
+          src: "/images/penny-smile-field/800-607.jpg",
           width: 800,
-          height: 493,
+          height: 607,
         },
       ],
     },
@@ -23,6 +25,8 @@ export const allImages = {
       width: 2000,
       height: 1326,
       alt: "Golden retriever romping in a field",
+      featured: true,
+      rating: 10,
       srcSet: [
         {
           src: "/images/penny-peaks/2000-1326.jpg",
@@ -208,29 +212,12 @@ export const allImages = {
     },
 
     {
-      src: "/images/stick/2000-2483.jpg",
-      width: 2000,
-      height: 2483,
-      alt: "Golden retriever with a big old stick",
-      srcSet: [
-        {
-          src: "/images/stick/2000-2483.jpg",
-          width: 2000,
-          height: 2483,
-        },
-        {
-          src: "/images/stick/800-993.jpg",
-          width: 800,
-          height: 993,
-        },
-      ],
-    },
-
-    {
       src: "/images/penny-stick/2000-1279.jpg",
       width: 2000,
       height: 1279,
       alt: "Golden retriever with a really great stick",
+      featured: true,
+      rating: 6,
       srcSet: [
         {
           src: "/images/penny-stick/2000-1279.jpg",
@@ -241,6 +228,45 @@ export const allImages = {
           src: "/images/penny-stick/800-512.jpg",
           width: 800,
           height: 512,
+        },
+      ],
+    },
+
+    {
+      src: "/images/winter-scene/2000-1310.jpg",
+      width: 2000,
+      height: 1310,
+      alt: "Golden retriever in the winter woods",
+      rating: 0,
+      srcSet: [
+        {
+          src: "/images/winter-scene/2000-1310.jpg",
+          width: 2000,
+          height: 1310,
+        },
+        {
+          src: "/images/winter-scene/800-524.jpg",
+          width: 800,
+          height: 524,
+        },
+      ],
+    },
+
+    {
+      src: "/images/triangle/2000-1241.jpg",
+      width: 2000,
+      height: 1241,
+      alt: "Golden retriever with a really great stick",
+      srcSet: [
+        {
+          src: "/images/triangle/2000-1241.jpg",
+          width: 2000,
+          height: 1241,
+        },
+        {
+          src: "/images/triangle/800-528.jpg",
+          width: 800,
+          height: 528,
         },
       ],
     },
@@ -301,30 +327,13 @@ export const allImages = {
         },
       ],
     },
-
-    {
-      src: "/images/penny-smile-field/2000-1518.jpg",
-      width: 2000,
-      height: 1518,
-      alt: "Close up of a golden retriever walking across a baseball field",
-      srcSet: [
-        {
-          src: "/images/penny-smile-field/2000-1518.jpg",
-          width: 2000,
-          height: 1518,
-        },
-        {
-          src: "/images/penny-smile-field/800-607.jpg",
-          width: 800,
-          height: 607,
-        },
-      ],
-    },
     {
       src: "/images/penny-shoulder/2000-1360.jpg",
       width: 2000,
       height: 1360,
       alt: "Golden retriever lying on the grass, smiling over her shoulder",
+      featured: true,
+      rating: 0,
       srcSet: [
         {
           src: "/images/penny-shoulder/2000-1360.jpg",
@@ -380,6 +389,8 @@ export const allImages = {
       width: 2000,
       height: 1490,
       alt: "Golden retriever looking at camera",
+      featured: true,
+      rating: 0,
       srcSet: [
         {
           src: "/images/greenline/2000-1490.jpg",
@@ -492,6 +503,8 @@ export const allImages = {
       width: 2000,
       height: 1334,
       alt: "Golden retriever standing on a basketball court after rainfall",
+      featured: true,
+      rating: 11,
       srcSet: [
         {
           src: "/images/penny-basketball/2000-1334.jpg",
@@ -566,6 +579,8 @@ export const allImages = {
       width: 2000,
       height: 1325,
       alt: "Golden retriever in the woods with a lens flare",
+      featured: true,
+      rating: 8,
       srcSet: [
         {
           src: "/images/penny-flare/2000-1325.jpg",
@@ -580,6 +595,8 @@ export const allImages = {
       width: 2000,
       height: 1243,
       alt: "Golden retriever walking in the woods with a stick",
+      featured: true,
+      rating: 9,
       srcSet: [
         { src: "/images/stick-woods/2000-1243.jpg", width: 2000, height: 1243 },
         {
@@ -589,6 +606,27 @@ export const allImages = {
         },
       ],
     },
+
+    {
+      src: "/images/penny-field/2500-1738.jpg",
+      width: 2500,
+      height: 1738,
+      alt: "Alert golden retriever lying in the grass with her ears perked",
+      rating: 0,
+      srcSet: [
+        {
+          src: "/images/penny-field/2500-1738.jpg",
+          width: 2500,
+          height: 1738,
+        },
+        {
+          src: "/images/penny-field/800-493.jpg",
+          width: 800,
+          height: 493,
+        },
+      ],
+    },
+
     {
       src: "/images/twilight/2000-2000.jpg",
       width: 2000,
@@ -620,6 +658,8 @@ export const allImages = {
       width: 2000,
       height: 1400,
       alt: "Coworkers happily flipping off a common enemy",
+      featured: true,
+      rating: 0,
       srcSet: [
         { src: "/images/doublebird/2000-1400.jpg", width: 2000, height: 1400 },
         { src: "/images/doublebird/800-560.jpg", width: 800, height: 560 },
@@ -631,6 +671,8 @@ export const allImages = {
       width: 2000,
       height: 3134,
       alt: "Yuchen sitting on the rocks at the beach",
+      featured: true,
+      rating: 10,
       srcSet: [
         {
           src: "/images/yuchen-beach/2000-3134.jpg",
@@ -674,6 +716,8 @@ export const allImages = {
       width: 2000,
       height: 1445,
       alt: "Night King working on some code",
+      featured: true,
+      rating: 0,
       srcSet: [
         { src: "/images/nightking/2000-1445.jpg", width: 2000, height: 1445 },
         { src: "/images/nightking/800-578.jpg", width: 800, height: 578 },
@@ -684,6 +728,8 @@ export const allImages = {
       width: 2000,
       height: 2502,
       alt: "Dorothy headshot",
+      featured: true,
+      rating: 8,
       srcSet: [
         { src: "/images/dorothy/2000-2502.jpg", width: 2000, height: 2502 },
         { src: "/images/dorothy/800-1001.jpg", width: 800, height: 1001 },
@@ -714,6 +760,8 @@ export const allImages = {
       width: 2000,
       height: 1403,
       alt: "Hal on a boat",
+      featured: true,
+      rating: 7,
       srcSet: [
         { src: "/images/hal-boat/2000-1403.jpg", width: 2000, height: 1403 },
         { src: "/images/hal-boat/800-561.jpg", width: 800, height: 561 },
@@ -738,6 +786,8 @@ export const allImages = {
       width: 2000,
       height: 1686,
       alt: "Old man looking through the window of his ice cream store in NYC",
+      featured: true,
+      rating: 7,
       srcSet: [
         { src: "/images/icecream/2000-1686.jpg", width: 2000, height: 1686 },
         { src: "/images/icecream/800-674.jpg", width: 800, height: 674 },
@@ -770,6 +820,8 @@ export const allImages = {
       width: 2000,
       height: 3000,
       alt: "Clare laughing at the beach",
+      featured: true,
+      rating: 8,
       srcSet: [
         {
           src: "/images/clare-beach/2000-3000.jpg",
@@ -816,6 +868,8 @@ export const allImages = {
       width: 2000,
       height: 1326,
       alt: "Shinyoung at the beach",
+      featured: true,
+      rating: 10,
       srcSet: [
         {
           src: "/images/shinyoung-smile/2000-1326.jpg",
@@ -850,7 +904,7 @@ export const allImages = {
       ],
     },
   ],
-  other: [
+  things: [
     {
       src: "/images/waterfall/2000-1313.jpg",
       width: 2000,
@@ -876,6 +930,8 @@ export const allImages = {
       width: 2000,
       height: 2886,
       alt: "Tree as dusk surrounded by vibrant green grass",
+      featured: true,
+      rating: 11,
       srcSet: [
         { src: "/images/tree/2000-2886.jpg", width: 2000, height: 2886 },
         { src: "/images/tree/800-1154.jpg", width: 800, height: 1154 },
@@ -896,6 +952,8 @@ export const allImages = {
       width: 2000,
       height: 1334,
       alt: "Barn at dusk",
+      featured: true,
+      rating: 7,
       srcSet: [
         { src: "/images/barn-dusk/2000-1334.jpg", width: 2000, height: 1334 },
         { src: "/images/barn-dusk/800-533.jpg", width: 800, height: 533 },
@@ -924,6 +982,16 @@ export const getImages = (filter) => {
     });
     return imageArray;
   }
+};
+
+export const getFeatured = () => {
+  let featuredArray = [];
+  Object.keys(allImages).forEach((key) => {
+    const images = allImages[key];
+    const feature = images.filter((item) => item.featured);
+    feature.forEach((image) => featuredArray.push(image));
+  });
+  return featuredArray.sort((a, b) => b.rating - a.rating);
 };
 
 export const getCategories = () => {

@@ -1,15 +1,15 @@
 import PhotoAlbum from "react-photo-album";
 
-const Gallery = ({ openLightbox, photos }) => {
+const Gallery = ({ openLightbox, photos, layout }) => {
   return (
     <PhotoAlbum
-      layout="columns"
-      spacing={12}
+      layout={layout}
+      spacing={6}
       columns={(containerWidth) => {
-        if (containerWidth < 600) return 1;
-        if (containerWidth < 1000) return 2;
-        if (containerWidth < 1600) return 3;
-        return 4;
+        if (containerWidth < 800) return 1;
+        if (containerWidth < 1500) return 2;
+        if (containerWidth > 2200) return 4;
+        return 3;
       }}
       photos={photos}
       onClick={({ index }) => {
